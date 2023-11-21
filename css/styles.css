@@ -307,6 +307,7 @@ figure {
 img,
 svg {
   vertical-align: middle;
+  
 }
 
 table {
@@ -601,7 +602,11 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  aspect-ratio: 3/5;
 }
+
+
+
 
 .img-thumbnail {
   padding: 0.25rem;
