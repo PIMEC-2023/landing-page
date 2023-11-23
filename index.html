@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <title>Memory Game</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="./assets/Macedonia-removebg.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -17,14 +17,16 @@
         type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/my-styles.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <!-- Navigation  colorAzul-->
+    <nav class="navbar navbar-expand-lg text-uppercase fixed-top colorAzul" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#page-top">Macedonia</a>
-            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+            <img src="./assets/img/Macedonia-removebg.png" class="logo" alt="...">
+            <button class="navbar-toggler text-uppercase font-weight-bold colorVerde text-white rounded" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -36,14 +38,12 @@
                             href="#portfolio">Equipo Desarollo</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
                             href="#about">Descripción del Proyecto</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#contact">RRSS</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Masthead-->
-    <header class="masthead bg-primary text-white text-center">
+    <!-- Masthead colorVerde -->
+    <header class="masthead text-white text-center colorVerde">
         <div class="container d-flex align-items-center flex-column">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -73,7 +73,7 @@
     <section class="page-section portfolio" id="portfolio">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Equipo Desarollo</h2>
+            <h2 class="page-section-heading text-center text-uppercase mb-0 colorAzultext">Equipo Desarollo</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -176,7 +176,7 @@
         </div>
     </section>
     <!-- About Section-->
-    <section class="page-section bg-primary text-white mb-0" id="about">
+    <section class="page-section text-white mb-0 colorVerde" id="about">
         <div class="container">
             <!-- About Section Heading-->
             <h2 class="page-section-heading text-center text-uppercase text-white">Descripción del Proyecto</h2>
@@ -204,71 +204,22 @@
             </div>
         </div>
     </section>
-    <!-- Contact Section-->
-    <section class="page-section" id="contact">
-        <div class="container">
-            <!-- Contact Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">RRSS</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <div class="d-none" id="submitSuccessMessage">
-                <div class="text-center mb-3">
-                    <div class="fw-bolder">Form submission successful!</div>
-                    To activate this form, sign up at
-                    <br />
-                    <a
-                        href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                </div>
-            </div>
-            <!-- Submit error message-->
-            <!---->
-            <!-- This is what your users will see when there is-->
-            <!-- an error submitting the form-->
-            <div class="d-none" id="submitErrorMessage">
-                <div class="text-center text-danger mb-3">Error sending message!</div>
-            </div>
-            <!-- Submit Button-->
-            <button class="btn btn-primary btn-xl disabled" src="" type="">Instagram</button>
-            </form>
-        </div>
-        </div>
-        </div>
-    </section>
+   
     <!-- Footer-->
     <footer class="footer text-center">
-        <div class="container">
-            <div class="row">
-                <!-- Footer Location-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Location</h4>
-                    <p class="lead mb-0">
-                        2215 John Daniel Drive
-                        <br />
-                        Clark, MO 65243
-                    </p>
-                </div>
+      <!--  <div class="container"> -->
+          <!--  <div class="row"> -->
                 <!-- Footer Social Icons-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Around the Web</h4>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
-                            class="fab fa-fw fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
-                            class="fab fa-fw fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                </div>
-                <!-- Footer About Text-->
-                <div class="col-lg-4">
-                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                    <p class="lead mb-0">
-                        Freelance is a free to use, MIT licensed Bootstrap theme created by
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                        .
-                    </p>
+              <!--  <div class="col-lg-4 mb-5 mb-lg-0"> -->
+                <div class="container d-flex justify-content-center flex-column">
+                   <div><h4 class="text-uppercase mb-4">Around the Web</h4></div>
+                   <div><a class="btn btn-outline-light btn-social mx-1" href="https://github.com/PIMEC-2023"><svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                </svg></a>
+
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                        class="fab fa-fw fa-linkedin-in"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
